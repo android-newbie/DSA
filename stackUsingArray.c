@@ -84,7 +84,16 @@ int main()
     int choice, data;
     while (1)
     {
-     
+        printf("\n");
+        printf("1. push\n");
+        printf("2. pop\n");
+        printf("3. print the top element\n");
+        printf("4. print all the elements of stack\n");
+        printf("5. QUIT\n");
+        printf("Please enter your choice :");
+        scanf("%d", &choice);
+        switch (choice)
+        {
         case 1:
             printf("Enter the element you want to push:");
             scanf("%d", &data);

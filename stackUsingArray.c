@@ -121,5 +121,10 @@ int main()
         }
     }
 
+
+    VOID CHECK(){
+        printf("HELLO")
+    }
+
     return 0;
 }

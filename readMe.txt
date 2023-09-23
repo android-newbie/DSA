@@ -1,0 +1,1 @@
+stack,infix,queue,recursion,linkedlist,doublylinkedlist
